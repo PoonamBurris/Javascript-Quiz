@@ -36,13 +36,13 @@ var quizques = [
       answer: '4. All of above', 
       MChoice: [ '1. Null type',  '2. Undefined type',  '3. Number type',  '4. All of above']
     },
-    { question: 'Which one of the following also known as Conditional Expression:', 
-      answer:  '4. immediate if', 
-      MChoice: [ '1.  Alternative to if-else',  '2. Switch statement',  '3. If-then-else statement',  '4. immediate if']
+    { question: 'What HTML syntax do we use to integrate Javascript?', 
+      answer:  '2. <script>', 
+      MChoice: [ '1.  <link>',  '2. <script>',  '3. <scr>',  '4. All of above']
     },
     { question: 'What syntax would call a function?', 
-      answer: '4. immediate if', 
-      MChoice: [ '1. var function',  '2. function',  '3. If-then-else statement',  '4. immediate if']
+      answer: '2. function ()', 
+      MChoice: [ '1. var function',  '2. function ()',  '3. .click',  '4. All of above ']
     },
     { question: 'What is function and var?', 
       answer: '3. Declaration statements', 
