@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h2{
+
+    text-align: center;
+    margin-top:6%;
+    font-size: 40px;
+    
+  }
+  h3{
+   
+    text-align: center;
+    font-style: italic;
+  }
+  h4 {
+   
+    font-size: 40px;
+  }
+  .quiz-ques,.end-page,.hsr-page,#check-answer
+{
+  display: none;
+}
+#check-answer{
+
+text-align: center;
+border-top: 2px solid black;
+font-size: 30px;
+
+
+}
+.initials{
+  font-size: 30px;
+}
+  .end,.finalscore,.initials{
+    margin-top:0;
+   text-align: center;
+   font-size: 20px;
+  }
+  
+#start-Quiz{
+    background-color:rgb(86, 2, 169);
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#questions{
+  margin-top: 15%;
+text-align: center;
+font-size: 40px;
+}
+.btn-back,.btn-clear, .sumbit-score{
+  background-color:rgb(86, 2, 169);
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.Mchoices{
+  display: none;
+  background-color:rgb(86, 2, 169);
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  margin-left: 35%;
+  
+}
+.initials{
+align-items: center;
+}
+
+#vhs{
+    margin-top: 0px;
+    background-color: white;
+    border: 0;
+    font-size: 22px;
+    color:rgb(86, 2, 169);
+    cursor: pointer;
+    display: inline-block;
+    padding-inline-end: 80%;
+}
+#timer-text{
+    margin-top: 0px;
+    background-color: white;
+    border: 0;
+    font-size: 22px;
+    display: inline-block;
+}
+#time1-text{
+    display: inline-block;
+    font-size: 22px;
+
+}
+
+
+
+
+#quiz-ques{
+  display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn{
+  display: block;
+  background-color:rgb(86, 2, 169);
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  top:50%;
+  margin-left: 50%;
+  
+}
+.hsr-page,.end-page{
+margin-left: 40%;
+}
+
+
+
+.banner {
+  font-size: 25px;
+  text-align: center;
+  color: rgba(199, 187, 187, 0.8);
+  font-style: italic;
+  margin: 0 100px;
+}
+
+.banner h2 {
+ border: 2px solid rgba(199, 187, 187, 0.8);
+ margin: 0 auto;
+ text-align: center;
+ padding-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+      flex-direction: column;
+      align-items: center;
+    }}

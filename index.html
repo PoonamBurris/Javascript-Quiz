@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Quiz with Web APIs</title>
+</head>
+<body>  
+        
+    <button id="vhs">View Highscores</button>
+    <div id="time1-text">Time:</div>
+    <h1 id="timer-text" style="text-align:right;"></h1>
+    <main> 
+
+    <!-- Landing-Page id will include fist vislible page components when webpage is loaded-->
+    <section id="landing-page" class="landing-page">
+        <h2>Coding Quiz Challenge</h2>
+    <h3>
+            <p>Try to answer the following code-related questions within the time limit.</p>
+            <p>Keep in mind that incorrect answers will penalize your score time by ten seconds!</p>
+            <p><button class="start-Quiz" id="start-Quiz"> Start Quiz</button> </p>
+        </h3>
+    </section>
+
+<!-- All the questions used for the quiz -->
+<section id="quiz-ques" class="quiz-ques">
+<div >
+        <div id="questions"></div>
+        
+            <p><button class ="Mchoices" id="choice1">answer1</button></p>
+            <p><button class ="Mchoices" id="choice2">answer2</button></p>
+            <p><button class ="Mchoices" id="choice3">answer3</button></p>
+            <p><button class ="Mchoices" id="choice4">answer4</button></p>
+        
+
+<!-- Div for Correct or wrong answers-->
+<div  id="check-answer">
+    <hr>
+    <h2>Correct ✅ or Wrong ❌ </h2>
+    </div>
+</div>
+</section>
+
+<section>
+<!-- Final score page-->
+<div id="end-page" class="end-page">
+              <h4 id="end">All done!</h4>
+              <p id="final-score">Your final score is: </p> 
+              <p> Enter Initials:
+        <input type="text" name="initials" id="initials" class="text-input" />
+        <button class="sumbit-score" id="sumbit-score" type="submit">Submit</button> </p>
+ </div>
+</section>
+<section>
+ <!-- High score page-->
+<div id="hsr-page" class="hsr-page">
+    <h1>High Scores</h1>
+    <div id="hs-list" class="hs-list"></div><br><br>
+<div>
+    <button class="btn-back" id="back">Go back</button>
+    <button class="btn-clear" id="clearhsr">Clear high scores</button>
+</div>
+</div>
+</section>
+</main>
+</main>
+ <script src="assets/script.js"></script>
+</body>
+</html>
